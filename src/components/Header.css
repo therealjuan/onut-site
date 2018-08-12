@@ -49,5 +49,5 @@ header h1 span {
 .inner {
     -webkit-animation: 16s inner-circle linear infinite;
     animation: 16s inner-circle linear infinite;
-    transform-origin: 100px;    
+    transform-origin: 102px;    
 }

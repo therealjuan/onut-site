@@ -1,0 +1,34 @@
+.home-content {
+    display: block;
+    height: 100vh;
+}
+
+.video {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index:-9999;
+}
+
+.manifesto {
+    padding: 1rem;
+    background:none;
+    border: 3px solid white;
+    text-decoration: none;        
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 10rem;
+    text-align: center;
+    left: 50%;
+    margin-left: -5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.manifesto:hover {
+    background: white;
+    color: black;
+}

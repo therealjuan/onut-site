@@ -1,11 +1,12 @@
 import React from 'react'
 
+import videoSource from './water.mp4'
 import './Video.css'
 
 const Video = () => (
     <div className="video">
         <video autoPlay muted loop id="videoBackground">
-            <source src='https://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_20mb.mp4' type="video/mp4"></source>
+            <source src={videoSource} type="video/mp4"></source>
         </video>
     </div>
 )

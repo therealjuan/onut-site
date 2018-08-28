@@ -4,7 +4,7 @@ import Logo from '../components/logo'
 import '../components/Menu.css'
 
 const getActiveClassName = (path) => {
-    return (location.pathname === path ? 'active': 'inactive')
+    return (location.pathname.indexOf(path) === 0 ? 'active': 'inactive')
     
 }
 
@@ -37,10 +37,6 @@ class Menu extends React.Component {
     render() {
         const menuActive = this.state.showMenu ? 'is-active' : '';
         const burgerActive = this.state.showMenu ? 'is-active' : '';
-        const selectedItem = this.props.menuActive;
-
-        console.log(selectedItem)
-
         return(
             <section id="sidebar" className={`${menuActive}`}>
                 <section className='menu'>

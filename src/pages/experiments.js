@@ -3,9 +3,6 @@ import Template from '../components/template'
 import Link from 'gatsby-link'
 
 import exp1 from './exp1.svg'
-
-console.log(exp1)
-
 import exp2 from './exp2.svg'
 import exp3 from './exp3.svg'
 import exp4 from './exp4.svg'
@@ -16,7 +13,7 @@ const ExpPage = () => (
   <Template>
     <div className="experiments-layout">
       <div className="experiment-block">
-          <Link to="/experiments/">
+          <Link to="/experiments/flowers">
               <img src={exp1} alt="Experiment 1" className="experiment-icon" />
           </Link>
       </div>

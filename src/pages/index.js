@@ -1,18 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Header from '../components/header'
+import Template from '../components/template'
 import Video from '../components/video'
+import Header from '../components/header'
 
 import './Home.css'
 
 const IndexPage = () => (
-  <div className="home">
+  <Template>
     <Video />
-    <div className="home-content">
-      <Header />
-      <a href="/manifesto" className="manifesto">Manifesto</a>
-    </div>
-  </div>
+    <Header />
+  </Template>
 )
 
 export default IndexPage

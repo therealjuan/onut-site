@@ -1,0 +1,19 @@
+.thumbs {
+    position: absolute;
+    top: 1rem;
+    margin-top: 13rem;
+    right: 12rem;
+    width: 20rem;
+}
+
+.thumb {
+    height: 12rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    background: yellow;
+}
+
+.thumb img {
+    margin: 0;
+    max-width: 129%;
+}

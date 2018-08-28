@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import Menu from '../components/menu'
 import './index.css'
 import './layout.css'
 
@@ -14,10 +15,10 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'onut, computational art, art' },
       ]}
     />
-
-    <section>
-      {children()}
-    </section>
+    <div id="grid">
+        {children()}
+        <Menu />
+    </div>
   </main>
 )
 

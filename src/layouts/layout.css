@@ -1,5 +1,115 @@
-@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
 
 main {
     font-family: 'Muli', sans-serif;
+}
+
+body {
+    min-width: 400px;
+    font-size: 1.2rem;
+    line-height: 2rem;    
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+#grid {
+    display: grid;
+    grid-template-areas:"main sidebar";
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+#main-content {
+    grid-area: main;
+}
+
+@media all and (max-width: 1080px) {
+    #grid {
+        display: block;
+        grid-template-columns: 100%;
+    }
+}
+
+#sidebar {
+    grid-area: sidebar;
+    position: fixed;
+    right: 0;
+    width: 11rem;
+    height: 100vh;
+}
+
+
+.logoMenu {
+    float: left;
+    position: fixed;
+    bottom:16vh;
+    right: 3.6rem;
+}
+
+.logoMenu img {
+    margin-bottom: 0;
+}
+
+.show-menu {
+    width: 5rem;
+    height: 5rem;
+    background: black;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 1rem;
+    display: none;
+}
+
+@media all and (max-width: 1080px) {
+
+   .logoMenu {
+        right: 1.6rem;
+    }
+
+}
+
+@media all and (max-width: 1080px) {
+
+    #sidebar {
+        position: fixed;
+        background: black;
+        top: 1rem;
+        width: 5rem;
+        right: 1rem;
+        height: 5rem;
+        overflow: hidden;
+        transition: all 1s ease;
+    }
+
+    #sidebar.is-active {
+        width: calc(100% - 2rem);
+        height: calc(100% - 2rem);
+        margin-bottom: -1rem;
+    }
+
+    #sidebar.is-active img.onut-logo {
+        filter: invert(100%);
+        transition: all 1s ease;
+    }
+
+    #sidebar.is-active #Fill-3 {
+        fill: red;
+    }
+
+    #sidebar.hide {
+        left: -100vw;
+    }
+
+    #sidebar.show {
+        left: 0;
+    }
+
+    .show-menu {
+        display: block;
+    }
 }

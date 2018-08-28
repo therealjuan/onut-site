@@ -1,0 +1,73 @@
+.menu {
+    margin: 1rem;
+    float: left;
+    padding: 0;
+}
+
+.menu ul {
+    display: block;    
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: right;
+    height: 100%;
+    letter-spacing: 0.1rem;
+    list-style-type: none;
+    margin-right: 1.2rem;
+    margin-bottom: -.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 2.2rem;
+}
+
+.menu .work a {
+    letter-spacing: -0.1rem;
+}
+
+.menu ul li a {
+    font-weight: 700;    
+    text-decoration: none;
+    color: white;
+    background: black;    
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: .5rem;
+    width:100%;
+    float:left;
+}
+
+.menu ul li a:hover,
+.menu li.active a {
+    color: black;
+    background: white;
+}
+
+.menu ul > :first-child {
+    margin-right: 0;
+}
+
+@media all and (max-width: 1080px) {
+    
+    .menu {
+        margin-top: 5rem;
+        left: 50%;
+        position: relative;
+        margin-left: -5.05rem;
+    }
+
+    .menu ul li {
+        width: 2.7rem;
+        letter-spacing: 0rem;
+        margin-right: 1rem;
+    }
+
+    .menu ul li a {
+        font-size: 1.9rem;
+        line-height: 2.4rem;
+        padding: .2rem 0;
+        width: 2.7rem;
+    }    
+}

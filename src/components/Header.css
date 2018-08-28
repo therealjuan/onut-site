@@ -22,14 +22,6 @@ header h1 span {
     width: 202px;
 }
 
-.onut-logo {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -40px;
-    margin-top: -40px;
-}
-
 .circle { 
     stroke-width: 3;
     fill: none;
@@ -50,4 +42,13 @@ header h1 span {
     -webkit-animation: 16s inner-circle linear infinite;
     animation: 16s inner-circle linear infinite;
     transform-origin: 102px;    
+}
+
+.logo-center {
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    position: absolute;
 }

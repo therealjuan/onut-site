@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="177px" height="534px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle id="stone-8" stroke="#000000" fill="none" stroke-width="2" cx="102" cy="15" r="14"></circle>
+    <ellipse id="stone-7" stroke="#000000" fill="none" stroke-width="2" cx="102" cy="53" rx="49" ry="24"></ellipse>
+    <circle id="stone-6" stroke="#000000" fill="none" stroke-width="2" cx="138" cy="104" r="31"></circle>        
+    <circle id="stone-5" stroke="#000000" fill="none" stroke-width="2" cx="74.5" cy="188.5" r="73.5"></circle>
+    <circle id="stone-4" stroke="#000000" fill="none" stroke-width="2" cx="102" cy="273" r="14"></circle>    
+    <circle id="stone-3" stroke="#000000" fill="none" stroke-width="2" cx="76" cy="343" r="59"></circle>
+    <circle id="stone-2" stroke="#000000" fill="none" stroke-width="2" cx="101.5" cy="425.5" r="25.5"></circle>
+    <ellipse id="stone-1" stroke="#000000" fill="none" stroke-width="2" cx="102" cy="487" rx="74" ry="36"></ellipse>    
+    <circle id="stone-0" fill="#000000" cx="102" cy="529" r="5"></circle>    
+</svg>

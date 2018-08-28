@@ -1,0 +1,26 @@
+#main-content {
+}
+.experiments-layout {
+    display: grid;
+    margin: 7rem auto;
+    grid-gap: 2rem;
+    max-width: 80rem;
+    grid-template-columns: repeat(3, 25%);
+    justify-content: center;
+}
+
+.experiment-block a {
+    display:grid;
+}
+
+.experiment-icon {
+    margin: 0;
+    width: 100%;
+}
+
+@media all and (max-width: 1080px) {
+    .experiments-layout {
+        grid-template-columns: repeat(2, 44%);
+        grid-gap: 1rem;
+    }
+}

@@ -1,0 +1,85 @@
+.work-layout {
+    display: grid;
+    grid-template-rows: 1fr 12rem;
+    grid-template-columns: 1fr;
+    width: calc(100% - 34rem);
+    height: calc(100% - 2rem);
+    top: 1rem;
+    left: 1rem;
+    position: fixed;    
+}
+
+.project {
+    width: 26%;
+    background: red;
+    position: absolute;
+    right: 15.2vw;
+}
+
+.video-summary {
+    top: 1rem;
+    left: 1rem;
+    background: black;
+}
+
+.title {
+    right: 12rem;
+    width: 20rem;
+    margin-top: 2.2em;
+    margin-bottom: 2em;
+    padding-left: 0.5em;
+    top: 0;
+    position:fixed;
+    background: white;
+    text-transform: uppercase;
+    z-index: 9999;
+}
+h3 {
+    font-size: 2.4em;
+    font-weight: 400;
+    padding-top: 0.4em;
+    margin-bottom: 0.2em;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.explanation {
+    bottom: 0;
+    background: black;
+    color: white;
+    padding: 2rem;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column {
+    overflow: hidden;
+}
+
+hr {
+    position:fixed;
+    width: 20rem;
+    height: 2rem;
+    right: 12rem;
+    background: white;
+    border: none;
+}
+
+hr.top {
+    top:-0.8em;
+}
+hr.bottom {
+    bottom: -1.9em;
+}
+
+.project-selection {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    background: red;
+}

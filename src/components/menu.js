@@ -4,7 +4,7 @@ import Logo from '../components/logo'
 import '../components/Menu.css'
 
 const getActiveClassName = (path) => {
-    return (location.pathname.indexOf(path) === 0 ? 'active': 'inactive')
+    return (window.location.pathname.indexOf(path) === 0 ? 'active': 'inactive')
     
 }
 

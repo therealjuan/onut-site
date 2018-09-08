@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Safe from 'react-safe'
 
 import './Flowers.css'
+import Flower1 from './fl1.png'
 
 export default class FlowersExperiment extends React.Component {
 
@@ -51,7 +52,7 @@ export default class FlowersExperiment extends React.Component {
   }
   
   getStyleForImage() {
-    return {filter: 'hue-rotate('+ this.state.data.temp + 'deg)'}
+    return {filter: 'saturate('+ this.state.data.temp + ')'}
   }
 
   render() {
@@ -60,7 +61,7 @@ export default class FlowersExperiment extends React.Component {
     return(
       <Template>
       <div className="flowers">
-        <img style={this.getStyleForImage()} src="https://images.unsplash.com/photo-1519381630992-423669ceafba?ixlib=rb-0.3.5&s=7ee365f01c8fce714fd5e5fd53fa3917&auto=format&fit=crop&w=1350&q=80" />
+        <img style={this.getStyleForImage()} src={Flower1} />
           <div className="data">
             <a onClick={this.updateCity.bind(this)}>Paris</a>
             <a onClick={this.updateCity.bind(this)}>London</a>

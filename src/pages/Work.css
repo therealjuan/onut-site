@@ -83,3 +83,19 @@ hr.bottom {
     left: 1rem;
     background: red;
 }
+
+@media all and (max-width: 1080px) {
+    .work-layout {
+        width: 100%;
+    }   
+
+    .title {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    hr.top,
+    hr.bottom {
+        display: none;
+    }
+}

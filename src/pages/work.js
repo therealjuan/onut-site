@@ -12,7 +12,7 @@ const projects = [{
     date: 'Oct 2018',
     leftColumn : 'Between 8-10 March 2018 “Unsung sheroes” was selected to be part of Sheroes, Lon-art’s third Social Exhibition, championing little-known women warriors, leading ladies and unsung stars.',
     rightColumn: 'The artwork wanted to enhance the role of common women at the base of the social pyramid.',
-    images:['../components/thumb1.jpg','../components/thumb1.jpg']
+    images:['../components/thumb1.jpg']
 },
 {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [{
     date: 'Nov 2018',
     leftColumn : 'Left',
     rightColumn: 'Right',
-    images:['../components/thumb1.jpg','../components/thumb1.jpg','../components/thumb1.jpg','../components/thumb1.jpg']
+    images:['../components/thumb1.jpg']
 }]
 class WorkPage extends Component {
     state = { activeProject: 0 }
@@ -53,16 +53,6 @@ class WorkPage extends Component {
                 <hr className="bottom" />      
             </div>
             <Thumbs images={projects[this.state.activeProject].images} />
-            <section className="project-selection">
-                <ul>
-                    <li>
-                        <Link className="project-selector" key="1" to='/work/' onClick={this.showActiveProject(0)}>0</Link>
-                    </li>
-                    <li>
-                        <Link className="project-selector" key="2" to='/work/' onClick={this.showActiveProject(1)}>1</Link>
-                    </li>                    
-                </ul>
-            </section>
         </Template>
         )
     }

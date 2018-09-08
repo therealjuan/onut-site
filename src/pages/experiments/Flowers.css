@@ -3,7 +3,7 @@
     display: hidden;
 }
 
-#main-content img {
+#main-content .flowers img {
     margin: 0 auto;
     transition: all 1s linear;
     width: 100%;
@@ -25,6 +25,77 @@
     background: yellow;
 }
 
-html {
+/* Experiment 2 */
+
+.flowers-experiment-2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     overflow: hidden;
+}
+
+.grid-experiment-image {
+    background: yellow;
+    height: calc(100vh / 4);
+    background-size: cover;
+    transition: all linear 0.5s;
+}
+
+.grid-experiment-full-image {
+    background: yellow;
+    height: calc(100vh);
+    background-size: cover;
+    transition: all linear 0.5s;
+}
+
+.opacity-layer {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffeb00+0,f97e00+100 */
+    background: #ffeb00; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #ffeb00 0%, #f97e00 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #ffeb00 0%,#f97e00 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #ffeb00 0%,#f97e00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeb00', endColorstr='#f97e00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    mix-blend-mode: color;
+    transition: all linear 0.5s;
+}
+
+
+.flowers-year { 
+    position: absolute;
+    top: 48vh;
+    margin: 0 auto;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    z-index: 9999;
+    font-size: 16rem;
+    font-weight: 800;
+    letter-spacing: -1rem;
+    opacity: 0.65;
+    z-index: 100;
+    transition: all linear 0.5s;
+}
+
+.flowers-highest {
+    position: absolute;
+    top: 2rem;
+    left: 2vh;
+    color: black;
+    font-size: 6rem;
+    opacity: 0.8;
+    font-weight: 800;
+    z-index: 100;
+}
+
+.flowers-temperature {
+    color: white;
+    text-align: left;
+    margin: 0 1rem;
+}
+
+.highest-temperature-sign {
+    width: 3.6rem;
+    float: left;
 }

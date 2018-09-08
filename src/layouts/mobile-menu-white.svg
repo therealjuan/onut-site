@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu burguer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Menu-burguer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M34,0 L64.2290076,0 L64.2290076,120 L34,120 L34,0 Z M135.770992,0 L166,0 L166,200 L135.770992,200 L135.770992,0 Z M85.389313,0 L115.618321,0 L115.618321,90 L85.389313,90 L85.389313,0 Z M84.3816794,110 L114.610687,110 L114.610687,170 L84.3816794,170 L84.3816794,110 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

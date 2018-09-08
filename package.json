@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
+    "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "react-helmet": "^5.2.0",
     "react-safe": "^1.1.1"
@@ -21,6 +22,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "csv-loader": "^3.0.2",
     "prettier": "^1.13.7"
   },
   "repository": {

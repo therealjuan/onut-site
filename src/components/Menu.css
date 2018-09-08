@@ -55,7 +55,8 @@
         margin-top: 5rem;
         left: 50%;
         position: relative;
-        margin-left: -5.05rem;
+        margin-left: -6rem;
+        width: 12rem;
     }
 
     .menu ul li {
@@ -69,5 +70,6 @@
         line-height: 2.4rem;
         padding: .2rem 0;
         width: 2.7rem;
+        letter-spacing: 0.1rem;
     }    
 }

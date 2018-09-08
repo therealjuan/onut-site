@@ -1,0 +1,692 @@
+[
+  {
+    "year": 1880,
+    "highest": -0.19,
+    "lowest": -0.11
+  },
+  {
+    "year": 1881,
+    "highest": -0.1,
+    "lowest": -0.14
+  },
+  {
+    "year": 1882,
+    "highest": -0.1,
+    "lowest": -0.17
+  },
+  {
+    "year": 1883,
+    "highest": -0.19,
+    "lowest": -0.21
+  },
+  {
+    "year": 1884,
+    "highest": -0.28,
+    "lowest": -0.24
+  },
+  {
+    "year": 1885,
+    "highest": -0.31,
+    "lowest": -0.26
+  },
+  {
+    "year": 1886,
+    "highest": -0.32,
+    "lowest": -0.27
+  },
+  {
+    "year": 1887,
+    "highest": -0.35,
+    "lowest": -0.27
+  },
+  {
+    "year": 1888,
+    "highest": -0.18,
+    "lowest": -0.27
+  },
+  {
+    "year": 1889,
+    "highest": -0.11,
+    "lowest": -0.26
+  },
+  {
+    "year": 1890,
+    "highest": -0.37,
+    "lowest": -0.26
+  },
+  {
+    "year": 1891,
+    "highest": -0.24,
+    "lowest": -0.27
+  },
+  {
+    "year": 1892,
+    "highest": -0.27,
+    "lowest": -0.27
+  },
+  {
+    "year": 1893,
+    "highest": -0.32,
+    "lowest": -0.27
+  },
+  {
+    "year": 1894,
+    "highest": -0.32,
+    "lowest": -0.24
+  },
+  {
+    "year": 1895,
+    "highest": -0.22,
+    "lowest": -0.23
+  },
+  {
+    "year": 1896,
+    "highest": -0.11,
+    "lowest": -0.21
+  },
+  {
+    "year": 1897,
+    "highest": -0.12,
+    "lowest": -0.19
+  },
+  {
+    "year": 1898,
+    "highest": -0.28,
+    "lowest": -0.17
+  },
+  {
+    "year": 1899,
+    "highest": -0.18,
+    "lowest": -0.18
+  },
+  {
+    "year": 1900,
+    "highest": -0.09,
+    "lowest": -0.21
+  },
+  {
+    "year": 1901,
+    "highest": -0.15,
+    "lowest": -0.24
+  },
+  {
+    "year": 1902,
+    "highest": -0.3,
+    "lowest": -0.27
+  },
+  {
+    "year": 1903,
+    "highest": -0.39,
+    "lowest": -0.3
+  },
+  {
+    "year": 1904,
+    "highest": -0.49,
+    "lowest": -0.32
+  },
+  {
+    "year": 1905,
+    "highest": -0.28,
+    "lowest": -0.35
+  },
+  {
+    "year": 1906,
+    "highest": -0.23,
+    "lowest": -0.37
+  },
+  {
+    "year": 1907,
+    "highest": -0.4,
+    "lowest": -0.38
+  },
+  {
+    "year": 1908,
+    "highest": -0.44,
+    "lowest": -0.4
+  },
+  {
+    "year": 1909,
+    "highest": -0.48,
+    "lowest": -0.41
+  },
+  {
+    "year": 1910,
+    "highest": -0.44,
+    "lowest": -0.41
+  },
+  {
+    "year": 1911,
+    "highest": -0.43,
+    "lowest": -0.39
+  },
+  {
+    "year": 1912,
+    "highest": -0.36,
+    "lowest": -0.35
+  },
+  {
+    "year": 1913,
+    "highest": -0.35,
+    "lowest": -0.32
+  },
+  {
+    "year": 1914,
+    "highest": -0.16,
+    "lowest": -0.3
+  },
+  {
+    "year": 1915,
+    "highest": -0.12,
+    "lowest": -0.29
+  },
+  {
+    "year": 1916,
+    "highest": -0.33,
+    "lowest": -0.28
+  },
+  {
+    "year": 1917,
+    "highest": -0.43,
+    "lowest": -0.28
+  },
+  {
+    "year": 1918,
+    "highest": -0.28,
+    "lowest": -0.28
+  },
+  {
+    "year": 1919,
+    "highest": -0.27,
+    "lowest": -0.28
+  },
+  {
+    "year": 1920,
+    "highest": -0.25,
+    "lowest": -0.26
+  },
+  {
+    "year": 1921,
+    "highest": -0.17,
+    "lowest": -0.25
+  },
+  {
+    "year": 1922,
+    "highest": -0.27,
+    "lowest": -0.24
+  },
+  {
+    "year": 1923,
+    "highest": -0.24,
+    "lowest": -0.22
+  },
+  {
+    "year": 1924,
+    "highest": -0.25,
+    "lowest": -0.21
+  },
+  {
+    "year": 1925,
+    "highest": -0.21,
+    "lowest": -0.21
+  },
+  {
+    "year": 1926,
+    "highest": -0.09,
+    "lowest": -0.2
+  },
+  {
+    "year": 1927,
+    "highest": -0.2,
+    "lowest": -0.2
+  },
+  {
+    "year": 1928,
+    "highest": -0.19,
+    "lowest": -0.19
+  },
+  {
+    "year": 1929,
+    "highest": -0.35,
+    "lowest": -0.18
+  },
+  {
+    "year": 1930,
+    "highest": -0.15,
+    "lowest": -0.19
+  },
+  {
+    "year": 1931,
+    "highest": -0.1,
+    "lowest": -0.19
+  },
+  {
+    "year": 1932,
+    "highest": -0.17,
+    "lowest": -0.18
+  },
+  {
+    "year": 1933,
+    "highest": -0.3,
+    "lowest": -0.18
+  },
+  {
+    "year": 1934,
+    "highest": -0.14,
+    "lowest": -0.17
+  },
+  {
+    "year": 1935,
+    "highest": -0.21,
+    "lowest": -0.15
+  },
+  {
+    "year": 1936,
+    "highest": -0.16,
+    "lowest": -0.12
+  },
+  {
+    "year": 1937,
+    "highest": -0.04,
+    "lowest": -0.08
+  },
+  {
+    "year": 1938,
+    "highest": -0.03,
+    "lowest": -0.03
+  },
+  {
+    "year": 1939,
+    "highest": -0.03,
+    "lowest": 0.01
+  },
+  {
+    "year": 1940,
+    "highest": 0.11,
+    "lowest": 0.05
+  },
+  {
+    "year": 1941,
+    "highest": 0.18,
+    "lowest": 0.08
+  },
+  {
+    "year": 1942,
+    "highest": 0.05,
+    "lowest": 0.09
+  },
+  {
+    "year": 1943,
+    "highest": 0.07,
+    "lowest": 0.09
+  },
+  {
+    "year": 1944,
+    "highest": 0.21,
+    "lowest": 0.07
+  },
+  {
+    "year": 1945,
+    "highest": 0.09,
+    "lowest": 0.03
+  },
+  {
+    "year": 1946,
+    "highest": -0.07,
+    "lowest": 0
+  },
+  {
+    "year": 1947,
+    "highest": -0.04,
+    "lowest": -0.04
+  },
+  {
+    "year": 1948,
+    "highest": -0.11,
+    "lowest": -0.07
+  },
+  {
+    "year": 1949,
+    "highest": -0.11,
+    "lowest": -0.09
+  },
+  {
+    "year": 1950,
+    "highest": -0.19,
+    "lowest": -0.08
+  },
+  {
+    "year": 1951,
+    "highest": -0.07,
+    "lowest": -0.08
+  },
+  {
+    "year": 1952,
+    "highest": 0.01,
+    "lowest": -0.08
+  },
+  {
+    "year": 1953,
+    "highest": 0.07,
+    "lowest": -0.08
+  },
+  {
+    "year": 1954,
+    "highest": -0.15,
+    "lowest": -0.07
+  },
+  {
+    "year": 1955,
+    "highest": -0.14,
+    "lowest": -0.06
+  },
+  {
+    "year": 1956,
+    "highest": -0.2,
+    "lowest": -0.05
+  },
+  {
+    "year": 1957,
+    "highest": 0.04,
+    "lowest": -0.04
+  },
+  {
+    "year": 1958,
+    "highest": 0.07,
+    "lowest": -0.01
+  },
+  {
+    "year": 1959,
+    "highest": 0.03,
+    "lowest": 0.02
+  },
+  {
+    "year": 1960,
+    "highest": -0.02,
+    "lowest": 0.03
+  },
+  {
+    "year": 1961,
+    "highest": 0.06,
+    "lowest": 0.02
+  },
+  {
+    "year": 1962,
+    "highest": 0.04,
+    "lowest": 0
+  },
+  {
+    "year": 1963,
+    "highest": 0.07,
+    "lowest": -0.02
+  },
+  {
+    "year": 1964,
+    "highest": -0.2,
+    "lowest": -0.03
+  },
+  {
+    "year": 1965,
+    "highest": -0.1,
+    "lowest": -0.04
+  },
+  {
+    "year": 1966,
+    "highest": -0.05,
+    "lowest": -0.05
+  },
+  {
+    "year": 1967,
+    "highest": -0.02,
+    "lowest": -0.04
+  },
+  {
+    "year": 1968,
+    "highest": -0.07,
+    "lowest": -0.03
+  },
+  {
+    "year": 1969,
+    "highest": 0.07,
+    "lowest": -0.01
+  },
+  {
+    "year": 1970,
+    "highest": 0.03,
+    "lowest": 0
+  },
+  {
+    "year": 1971,
+    "highest": -0.09,
+    "lowest": 0
+  },
+  {
+    "year": 1972,
+    "highest": 0.01,
+    "lowest": 0
+  },
+  {
+    "year": 1973,
+    "highest": 0.16,
+    "lowest": -0.01
+  },
+  {
+    "year": 1974,
+    "highest": -0.08,
+    "lowest": 0
+  },
+  {
+    "year": 1975,
+    "highest": -0.02,
+    "lowest": 0.01
+  },
+  {
+    "year": 1976,
+    "highest": -0.11,
+    "lowest": 0.03
+  },
+  {
+    "year": 1977,
+    "highest": 0.17,
+    "lowest": 0.07
+  },
+  {
+    "year": 1978,
+    "highest": 0.06,
+    "lowest": 0.12
+  },
+  {
+    "year": 1979,
+    "highest": 0.16,
+    "lowest": 0.16
+  },
+  {
+    "year": 1980,
+    "highest": 0.27,
+    "lowest": 0.19
+  },
+  {
+    "year": 1981,
+    "highest": 0.33,
+    "lowest": 0.21
+  },
+  {
+    "year": 1982,
+    "highest": 0.13,
+    "lowest": 0.22
+  },
+  {
+    "year": 1983,
+    "highest": 0.31,
+    "lowest": 0.21
+  },
+  {
+    "year": 1984,
+    "highest": 0.16,
+    "lowest": 0.21
+  },
+  {
+    "year": 1985,
+    "highest": 0.12,
+    "lowest": 0.23
+  },
+  {
+    "year": 1986,
+    "highest": 0.18,
+    "lowest": 0.25
+  },
+  {
+    "year": 1987,
+    "highest": 0.33,
+    "lowest": 0.28
+  },
+  {
+    "year": 1988,
+    "highest": 0.41,
+    "lowest": 0.31
+  },
+  {
+    "year": 1989,
+    "highest": 0.28,
+    "lowest": 0.34
+  },
+  {
+    "year": 1990,
+    "highest": 0.44,
+    "lowest": 0.34
+  },
+  {
+    "year": 1991,
+    "highest": 0.41,
+    "lowest": 0.33
+  },
+  {
+    "year": 1992,
+    "highest": 0.22,
+    "lowest": 0.33
+  },
+  {
+    "year": 1993,
+    "highest": 0.24,
+    "lowest": 0.33
+  },
+  {
+    "year": 1994,
+    "highest": 0.31,
+    "lowest": 0.34
+  },
+  {
+    "year": 1995,
+    "highest": 0.44,
+    "lowest": 0.37
+  },
+  {
+    "year": 1996,
+    "highest": 0.33,
+    "lowest": 0.4
+  },
+  {
+    "year": 1997,
+    "highest": 0.47,
+    "lowest": 0.43
+  },
+  {
+    "year": 1998,
+    "highest": 0.62,
+    "lowest": 0.45
+  },
+  {
+    "year": 1999,
+    "highest": 0.4,
+    "lowest": 0.48
+  },
+  {
+    "year": 2000,
+    "highest": 0.4,
+    "lowest": 0.5
+  },
+  {
+    "year": 2001,
+    "highest": 0.54,
+    "lowest": 0.52
+  },
+  {
+    "year": 2002,
+    "highest": 0.62,
+    "lowest": 0.55
+  },
+  {
+    "year": 2003,
+    "highest": 0.61,
+    "lowest": 0.58
+  },
+  {
+    "year": 2004,
+    "highest": 0.53,
+    "lowest": 0.6
+  },
+  {
+    "year": 2005,
+    "highest": 0.67,
+    "lowest": 0.61
+  },
+  {
+    "year": 2006,
+    "highest": 0.62,
+    "lowest": 0.61
+  },
+  {
+    "year": 2007,
+    "highest": 0.64,
+    "lowest": 0.61
+  },
+  {
+    "year": 2008,
+    "highest": 0.52,
+    "lowest": 0.62
+  },
+  {
+    "year": 2009,
+    "highest": 0.63,
+    "lowest": 0.62
+  },
+  {
+    "year": 2010,
+    "highest": 0.7,
+    "lowest": 0.62
+  },
+  {
+    "year": 2011,
+    "highest": 0.57,
+    "lowest": 0.63
+  },
+  {
+    "year": 2012,
+    "highest": 0.61,
+    "lowest": 0.67
+  },
+  {
+    "year": 2013,
+    "highest": 0.64,
+    "lowest": 0.71
+  },
+  {
+    "year": 2014,
+    "highest": 0.73,
+    "lowest": 0.77
+  },
+  {
+    "year": 2015,
+    "highest": 0.86,
+    "lowest": 0.83
+  },
+  {
+    "year": 2016,
+    "highest": 0.99,
+    "lowest": 0.89
+  },
+  {
+    "year": 2017,
+    "highest": 0.9,
+    "lowest": 0.95
+  }
+]

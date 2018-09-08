@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Menu from '../components/menu'
 import './index.css'
 import './layout.css'
+import favicon from '../../src/favicon.png'
 
 const Layout = ({ children, data }) => (
   <main>
@@ -13,6 +14,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'onut' },
         { name: 'keywords', content: 'onut, computational art, art' },
+      ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href:`${favicon}`}
       ]}
     />
     <div id="grid">

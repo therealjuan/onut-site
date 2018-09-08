@@ -23,7 +23,7 @@ const ExpPage = () => (
           </Link>
       </div>
       <div className="experiment-block">
-          <Link to="/experiments/">                
+          <Link to="/experiments/flowers3">                
               <img src={exp3} alt="Experiment 3" className="experiment-icon" />
           </Link>                        
       </div>

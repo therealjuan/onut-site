@@ -29,7 +29,6 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <link rel="icon" type="image/png" href="../src/favicon.png" sizes="16x16" />
           {this.props.headComponents}
           {css}
         </head>

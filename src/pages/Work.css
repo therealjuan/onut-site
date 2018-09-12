@@ -87,15 +87,46 @@ hr.bottom {
 @media all and (max-width: 1080px) {
     .work-layout {
         width: 100%;
-    }   
+        display: contents;
+    }
+
+    .video-summary {
+        padding-top: 2rem;
+        width: 100vw;
+        height: 32rem;
+    }
 
     .title {
         width: 100%;
+        right: 0;
+        margin: 0;
+        padding: 2rem;
         float: left;
         position: relative;
     }
     hr.top,
     hr.bottom {
-        display: none;
+        /* display: none; */
+        right: 0;
+        width: 100vw;
+    }
+
+    hr.bottom {
+        bottom: -1.4rem;
+    }
+
+    hr.top {
+        top: 0;
+    }
+
+    .thumbs {
+        position:relative;
+        right: 0;
+        top: 0;
+        margin-top: 0;
+        padding: 2rem;
+        width: auto;
+        float: left;
+        padding-top: 0;
     }
 }

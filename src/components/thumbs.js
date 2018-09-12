@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import thumb1 from '../components/thumb1.jpg'
+import { withPrefix } from 'gatsby-link'
 
 import './Thumbs.css'
 
@@ -9,9 +9,10 @@ class Thumbs extends Component {
         let thumbs = []
 
         for( let i=0; i<numImages; i++) {
+            console.log(this.props.images[i])
             thumbs.push(
                 <div key={i} className="thumb">
-                    <img src={thumb1} alt="onut" />
+                    <img src={withPrefix(this.props.images[i])} alt="onut" />
                 </div>
             )
         }

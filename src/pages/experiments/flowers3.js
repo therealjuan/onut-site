@@ -5,7 +5,7 @@ import './Flowers.css'
 import Flower1 from './fl1.png'
 import GlobalTemperature from './global-temperature.json'
 
-export default class FlowersExperiment2 extends React.Component {
+export default class FlowersExperiment3 extends React.Component {
 
   constructor(props) {
     super(props)

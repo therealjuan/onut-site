@@ -4,6 +4,14 @@ module.exports = {
   },
   plugins: ['gatsby-plugin-react-helmet',
   {
+    resolve: `gatsby-plugin-react-svg`,
+    options: {
+      rule: {
+        include: /images/,
+      },
+    },
+  },
+  {
     resolve: 'gatsby-plugin-google-analytics',
     options: {
       trackingId: 'UA-125510208-1',

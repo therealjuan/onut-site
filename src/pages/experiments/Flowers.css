@@ -9,11 +9,23 @@
     width: 100%;
 }
 
-.flowers a { 
+.flowers-explanation {
+    background:white;
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    width: 22rem;
+    margin: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    transition: all 1s linear;
+    padding: 1rem;
+}
+.flowers a {
     width: 10rem;
     display: block;
     font-weight: bold;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .data {
@@ -21,7 +33,7 @@
     top: 0;
     left: 0;
     padding: 2rem;
-    margin: 1rem;    
+    margin: 1rem;
     background: yellow;
 }
 
@@ -62,7 +74,7 @@
 }
 
 
-.flowers-year { 
+.flowers-year {
     position: absolute;
     top: 48vh;
     margin: 0 auto;
@@ -102,7 +114,7 @@
 
 @media all and (max-width: 1080px) {
 
-    .flowers-year { 
+    .flowers-year {
         font-size: 8rem;
         letter-spacing: -0.2rem;
     }

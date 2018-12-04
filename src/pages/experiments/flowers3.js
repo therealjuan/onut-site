@@ -1,66 +1,58 @@
 import React from 'react'
 import Template from '../../components/template'
+import Link from 'gatsby-link'
 import Safe from 'react-safe'
+
 import './Flowers.css'
 import Flower1 from './fl1.png'
-import GlobalTemperature from './global-temperature.json'
 
-export default class FlowersExperiment3 extends React.Component {
+export default class FlowersExperiment extends React.Component {
 
   constructor(props) {
     super(props)
 
     this.state = {
       data: [],
-      city: 'London',
-      count: 80,
-      year: 0,
-      highest: 0,
-      lowest: 0
+      city: 'London'
     }
+
   }
 
-  updateCount() {
-
-    if (this.state.count < GlobalTemperature.length )
-      this.setState({ 
-        count: this.state.count + 1,
-        year: GlobalTemperature[this.state.count]['year'],
-        highest: GlobalTemperature[this.state.count]['highest'],
-        lowest: GlobalTemperature[this.state.count]['lowest']
+  retrieveWeatherData() {
+    fetch('http://api.openweathermap.org/data/2.5/weather?q=' + this.state.city + '&units=metric&APPID=f8a509a0618c0f680acbc88700e17efe')
+      .then(response => {
+        if (response.ok)
+          return response.json()
       })
-    else
-      this.setState({ count: 0})
+      .then(data => {
+        this.setState({
+          data: data.main
+        })
 
-    console.log(this.state)
+        // console.log(data)
+      })
+  }
+
+  getStyleForImage() {
+    return this.state.style
+  }
+
+  updateCity = (e) => {
+    this.setState({ city: e.currentTarget.innerHTML})
+    this.retrieveWeatherData()
   }
 
   componentDidMount() {
-    this.updateCount()
-    this.intervalId = setInterval(() => this.updateCount(), 800)
-  }
-
-  componentWillUpdate() {
-    
-  }
-
-  getTemperatureSign() {
-    if (this.state.highest >= 0) {
-      return ''
-    } else 
-      return '-'
+      this.retrieveWeatherData()
+      this.intervalId = setInterval(() => this.retrieveWeatherData(), 30000)
   }
 
   componentWillUnmount(){
-     clearInterval(this.intervalId)
+    clearInterval(this.intervalId)
   }
-  
-  getStyleForImage(key) {
-    
-    // console.log(LondonCsv[this.state.count][key])
-    return {
-      filter: 'saturate('+ GlobalTemperature[this.state.count][key] + ')',
-      backgroundImage: 'url(' + Flower1 + ')'}
+
+  getStyleForImage() {
+    return {filter: 'saturate('+ this.state.data.temp + ')'}
   }
 
   render() {
@@ -68,13 +60,21 @@ export default class FlowersExperiment3 extends React.Component {
     const { data } = this.state
     return(
       <Template>
-        <div className="grid-experiment-full-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>
-        <div className="flowers-year">{this.state.year}</div>
-        <div className="flowers-highest">
-          <span className="highest-temperature-sign">{(this.state.highest >= 0) ? '+' : '-'}</span>
-          <span className="highest-temperature">{Math.abs(this.state.highest).toFixed(2)}°C</span>
-        </div>
-        <div className="opacity-layer" style={{opacity: this.state.highest}}></div>
+      <div className="flowers">
+        <img style={this.getStyleForImage()} src={Flower1} />
+          <div className="data">
+            <a onClick={this.updateCity.bind(this)}>Paris</a>
+            <a onClick={this.updateCity.bind(this)}>London</a>
+            <a onClick={this.updateCity.bind(this)}>Madrid</a>
+            <a onClick={this.updateCity.bind(this)}>Tokyo</a>
+            <a onClick={this.updateCity.bind(this)}>New York</a>
+            <a onClick={this.updateCity.bind(this)}>Oymyakon</a>
+            <div>temp: {data.temp}</div>
+            <div>pressure: {data.pressure}</div>
+            <div>humidity: {data.humidity}</div>
+            <div>temp_min: {data.temp_min}</div>
+            <div>temp_max: {data.temp_max}</div>
+          </div>
         </div>
     </Template>
     )

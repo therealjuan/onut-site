@@ -18,6 +18,26 @@
     width: 100%;
 }
 
+.disabled {
+    opacity: 0.2;
+}
+
+ellipse#inside {
+    -webkit-animation: 16s inner-circle linear infinite;
+    animation: 16s inner-circle linear infinite;
+    transform-origin: 92px;
+}
+
+@keyframes inner-circle {
+    from {
+        transform: rotate(0deg) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) rotate(360deg);
+    }
+
+}
+
 @media all and (max-width: 1080px) {
     .experiments-layout {
         grid-template-columns: repeat(2, 44%);

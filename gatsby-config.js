@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'onut',
-    description: 'onut',
-    keywords: 'onut, computational art, art',
+    description: 'Our art is based on human emotions, universal and open. An invitation to reflection and dialogue. Celebrating diversity of opinions. In seek of constant evolution. A reflection on how we could make this world better',
+    keywords: 'onut, computational art, art, human emotions',
     menuLinks: [
       {
         name: 'manifesto',

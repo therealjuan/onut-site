@@ -1,5 +1,5 @@
 import React from 'react'
-import Template from '../../components/template'
+import Layout from '../../components/layout'
 import './Flowers.css'
 import Flower1 from './fl1.png'
 
@@ -50,7 +50,7 @@ export default class FlowersExperiment extends React.Component {
 
     const { data } = this.state
     return(
-      <Template>
+      <Layout>
       <div className="flowers">
         <img style={this.getStyleForImage()} alt="" src={Flower1} />
           <div className="data">
@@ -67,7 +67,7 @@ export default class FlowersExperiment extends React.Component {
             <div>temp_max: {data.temp_max}</div>
           </div>
         </div>
-    </Template>
+    </Layout>
     )
   }
 }

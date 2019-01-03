@@ -1,5 +1,4 @@
 import React from 'react'
-
 import videoSource from './water.mp4'
 import './Video.css'
 

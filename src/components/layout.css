@@ -7,7 +7,7 @@ main {
 body {
     min-width: 400px;
     font-size: 1.2rem;
-    line-height: 2rem;    
+    line-height: 2rem;
 }
 
 p {
@@ -44,6 +44,7 @@ p {
     right: 0;
     width: 11rem;
     height: 100vh;
+    z-index: 9999;
 }
 
 

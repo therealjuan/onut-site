@@ -1,5 +1,5 @@
 import React from 'react'
-import Template from '../../components/template'
+import Layout from '../../components/layout'
 import './Flowers.css'
 import Flower1 from './fl1.png'
 import GlobalTemperature from './global-temperature.json'
@@ -58,7 +58,7 @@ export default class FlowersExperiment3 extends React.Component {
 
   render() {
     return(
-      <Template>
+      <Layout>
         <div className="grid-experiment-full-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>
         <div className="flowers-explanation">Weather permitting reflects on Global Climate Change. And how human impact is affecting the world we experiencing.</div>
         <div className="flowers-year">{this.state.year}</div>
@@ -68,7 +68,7 @@ export default class FlowersExperiment3 extends React.Component {
         </div>
         <div className="opacity-layer" style={{opacity: this.state.highest}}></div>
         </div>
-    </Template>
+    </Layout>
     )
   }
 }

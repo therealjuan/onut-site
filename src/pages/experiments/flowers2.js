@@ -1,6 +1,5 @@
 import React from 'react'
 import Template from '../../components/template'
-import Safe from 'react-safe'
 import Helmet from 'react-helmet'
 import './Flowers.css'
 import Flower1 from './fl1.png'
@@ -28,32 +27,24 @@ export default class FlowersExperiment2 extends React.Component {
     else
       this.setState({ count: 0})
 
-    console.log(this.state.count)
   }
 
   componentDidMount() {
     this.intervalId = setInterval(() => this.updateCount(), 2000)
   }
 
-  componentWillUpdate() {
-    
-  }
-
   componentWillUnmount(){
      clearInterval(this.intervalId)
   }
-  
+
   getStyleForImage(key) {
-    
-    // console.log(LondonCsv[this.state.count][key])
+
     return {
       filter: 'saturate('+ LondonCsv[this.state.count][key] + ')',
       backgroundImage: 'url(' + Flower1 + ')'}
   }
 
   render() {
-
-    const { data } = this.state
     return(
             // Inside your component
       <Template>
@@ -74,7 +65,7 @@ export default class FlowersExperiment2 extends React.Component {
         </div>
         <div className="grid-experiment-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>
           <div style={this.getStyleForImage("MAR")}></div>
-          <div className="flowers-temperature">{LondonCsv[this.state.count]['MAR']} °C</div>        
+          <div className="flowers-temperature">{LondonCsv[this.state.count]['MAR']} °C</div>
         </div>
         <div className="grid-experiment-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>
           <div style={this.getStyleForImage("APR")}></div>
@@ -90,7 +81,7 @@ export default class FlowersExperiment2 extends React.Component {
         </div>
         <div className="grid-experiment-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>
           <div style={this.getStyleForImage("JUL")}></div>
-          <div className="flowers-temperature">{LondonCsv[this.state.count]['JUL']} °C</div> 
+          <div className="flowers-temperature">{LondonCsv[this.state.count]['JUL']} °C</div>
         </div>
         <div className="grid-experiment-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>
           <div style={this.getStyleForImage("AUG")}></div>

@@ -1,10 +1,10 @@
 import React from 'react'
-import Template from '../components/template'
+import Layout from '../components/layout'
 import stones from './stones.svg'
 import './Manifesto.css'
 
 const ManifestoPage = () => (
-  <Template>
+  <Layout>
       <div className="manifesto-content-layout">
       <h1>ONUT v.1 manifesto</h1>
         <p><strong>Our art is based on human emotions as we are humans.</strong> Let’s express the ordinary. Human emotions are universal and timeless</p>
@@ -14,7 +14,7 @@ const ManifestoPage = () => (
         <p><strong>Our art ponders on our legacy and what will remain behind us.</strong> Let’s leave a stamp behind</p>
         <p><strong>Our art is political</strong> and we cannot understand it without the context we live in</p>
         <p><strong>Our art seeks constant evolution</strong> and push to reinvent us with every piece.</p>
-        <p><strong>Our art reflects on how we could make this world better</strong></p>    
+        <p><strong>Our art reflects on how we could make this world better</strong></p>
         <p>For all these things:</p>
         <ul>
         <li>We will not follow trends, and only our instincts</li>
@@ -29,7 +29,7 @@ const ManifestoPage = () => (
         <p>For all these, today we create ONUT v.1 manifesto (London 11/08/2018)</p>
     </div>
     <img src={stones} alt="Stones" className="stones" />
-  </Template>
+  </Layout>
 )
 
 export default ManifestoPage

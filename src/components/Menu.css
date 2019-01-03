@@ -5,7 +5,7 @@
 }
 
 .menu ul {
-    display: block;    
+    display: block;
     float: right;
     margin: 0;
     padding: 0;
@@ -28,10 +28,10 @@
 }
 
 .menu ul li a {
-    font-weight: 700;    
+    font-weight: 700;
     text-decoration: none;
     color: white;
-    background: black;    
+    background: black;
     font-size: 1.2rem;
     line-height: 1.6rem;
     padding: .5rem;
@@ -40,7 +40,7 @@
 }
 
 .menu ul li a:hover,
-.menu li.active a {
+.menu .active {
     color: black;
     background: white;
 }
@@ -50,7 +50,7 @@
 }
 
 @media all and (max-width: 1080px) {
-    
+
     .menu {
         margin-top: 5rem;
         left: 50%;
@@ -71,5 +71,5 @@
         padding: .2rem 0;
         width: 2.7rem;
         letter-spacing: 0.1rem;
-    }    
+    }
 }

@@ -1,28 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Logo from '../components/logo'
-import '../components/Menu.css'
-
-const getActiveClassName = (path) => {
-    if (typeof location !== 'undefined') {
-        return (location.pathname.indexOf(path) === 0 ? 'active': 'inactive')
-    } else
-        return 'inactive'
-    
-}
-
-const getClassName = (className) => {
-  return (props.className !== undefined ? className: '')
-}
+import './Menu.css'
 
 const ListLink = props => (
-    <li className={getActiveClassName(props.to) + ' ' + props.className} >
+    <li className={props.className} >
         <Link to={props.to} onClick={props.onClick} activeClassName="active">
             {props.children}
         </Link>
     </li>
 )
-
 
 class Menu extends React.Component {
     state = { showMenu: false }
@@ -31,6 +18,7 @@ class Menu extends React.Component {
         this.setState({
             showMenu: !this.state.showMenu
         })
+
     }
 
     handleMobile = () => {

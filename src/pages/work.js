@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
-import { withPrefix } from 'gatsby-link'
-import Template from '../components/template'
+import Layout from '../components/layout'
 import Thumbs from '../components/thumbs'
 
 import './Work.css'
@@ -18,22 +15,20 @@ const projects = [{
 class WorkPage extends Component {
     state = { activeProject: 0 }
     showActiveProject = (project) => {
-        console.log(project)
-        this.state.activeProject = project
+        this.setState({activeProject : project})
     }
 
     getImages = () => {
-        console.log(projects[state.activeProject].images)
         return projects[this.state.activeProject].images
     }
 
     render () {
-        
+
         return (
-        <Template>
+        <Layout>
             <div className="work-layout" id={projects[this.state.activeProject].id}>
                 <div className="video-summary">
-                    <iframe src="https://player.vimeo.com/video/260203214" width="100%" height="100%" frameBorder="0"></iframe>
+                    <iframe title="video" src="https://player.vimeo.com/video/260203214" width="100%" height="100%" frameBorder="0"></iframe>
                 </div>
                 <aside className="explanation">
                     <div className="column">
@@ -46,15 +41,15 @@ class WorkPage extends Component {
             </div>
             <div className="title">
             <hr className="top" />
-                <h3>{projects[this.state.activeProject].title}</h3> 
+                <h3>{projects[this.state.activeProject].title}</h3>
                 <h4>{projects[this.state.activeProject].date}</h4>
-                <hr className="bottom" />      
+                <hr className="bottom" />
             </div>
             <Thumbs images={projects[this.state.activeProject].images} />
-        </Template>
+        </Layout>
         )
     }
-      
+
 }
 
 export default WorkPage

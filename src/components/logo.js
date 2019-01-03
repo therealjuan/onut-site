@@ -4,9 +4,6 @@ import logo from './onut.svg'
 import './Logo.css'
 
 export default class Logo extends React.Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         return(

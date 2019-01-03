@@ -1,6 +1,5 @@
 import React from 'react'
 import Template from '../../components/template'
-import Safe from 'react-safe'
 import './Flowers.css'
 import Flower1 from './fl1.png'
 import GlobalTemperature from './global-temperature.json'
@@ -32,16 +31,11 @@ export default class FlowersExperiment3 extends React.Component {
     else
       this.setState({ count: 0})
 
-    console.log(this.state)
   }
 
   componentDidMount() {
     this.updateCount()
     this.intervalId = setInterval(() => this.updateCount(), 800)
-  }
-
-  componentWillUpdate() {
-
   }
 
   getTemperatureSign() {
@@ -57,15 +51,12 @@ export default class FlowersExperiment3 extends React.Component {
 
   getStyleForImage(key) {
 
-    // console.log(LondonCsv[this.state.count][key])
     return {
       filter: 'saturate('+ GlobalTemperature[this.state.count][key] + ')',
       backgroundImage: 'url(' + Flower1 + ')'}
   }
 
   render() {
-
-    const { data } = this.state
     return(
       <Template>
         <div className="grid-experiment-full-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>

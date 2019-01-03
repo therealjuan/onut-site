@@ -1,8 +1,5 @@
 import React from 'react'
 import Template from '../../components/template'
-import Link from 'gatsby-link'
-import Safe from 'react-safe'
-
 import './Flowers.css'
 import Flower1 from './fl1.png'
 
@@ -28,13 +25,7 @@ export default class FlowersExperiment extends React.Component {
         this.setState({
           data: data.main
         })
-
-        // console.log(data)
       })
-  }
-
-  getStyleForImage() {
-    return this.state.style
   }
 
   updateCity = (e) => {
@@ -61,14 +52,14 @@ export default class FlowersExperiment extends React.Component {
     return(
       <Template>
       <div className="flowers">
-        <img style={this.getStyleForImage()} src={Flower1} />
+        <img style={this.getStyleForImage()} alt="" src={Flower1} />
           <div className="data">
-            <a onClick={this.updateCity.bind(this)}>Paris</a>
-            <a onClick={this.updateCity.bind(this)}>London</a>
-            <a onClick={this.updateCity.bind(this)}>Madrid</a>
-            <a onClick={this.updateCity.bind(this)}>Tokyo</a>
-            <a onClick={this.updateCity.bind(this)}>New York</a>
-            <a onClick={this.updateCity.bind(this)}>Oymyakon</a>
+            <button onClick={this.updateCity.bind(this)}>Paris</button>
+            <button onClick={this.updateCity.bind(this)}>London</button>
+            <button onClick={this.updateCity.bind(this)}>Madrid</button>
+            <button onClick={this.updateCity.bind(this)}>Tokyo</button>
+            <button onClick={this.updateCity.bind(this)}>New York</button>
+            <button onClick={this.updateCity.bind(this)}>Oymyakon</button>
             <div>temp: {data.temp}</div>
             <div>pressure: {data.pressure}</div>
             <div>humidity: {data.humidity}</div>

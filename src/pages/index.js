@@ -1,15 +1,13 @@
 import React from 'react'
-import Template from '../components/template'
+import Layout from '../components/layout'
 import Video from '../components/video'
 import Header from '../components/header'
 
 import './Home.css'
 
-const IndexPage = () => (
-  <Template>
+export default props => (
+  <Layout>
     <Video />
     <Header />
-  </Template>
+  </Layout>
 )
-
-export default IndexPage

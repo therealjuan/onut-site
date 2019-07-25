@@ -6,7 +6,7 @@
     height: calc(100% - 2rem);
     top: 1rem;
     left: 1rem;
-    position: fixed;    
+    position: fixed;
 }
 
 .project {
@@ -77,14 +77,52 @@ hr.bottom {
     bottom: -1.9em;
 }
 
-.project-selection {
+.work-navigation {
     position: fixed;
-    top: 1rem;
-    left: 1rem;
-    background: red;
+    top: 50%;
+    width: 9.2rem;
+    right: 2rem;
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-@media all and (max-width: 1080px) {
+
+.work-navigation-item {
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    margin-bottom: .2rem;
+    margin-right:10px;
+    background: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.work-navigation-item.active {
+    background: black;
+    border-radius: 100%;
+}
+.work-navigation-item:hover {
+    background: black;
+    border-color: white;
+}
+
+.work-navigation:last-child {
+    margin-right: 0;
+}
+
+
+@media all and (max-width: 72.5rem) {
+
+    .work-navigation {
+        top: 0;
+        left: 0;
+        margin: 1rem;
+    }
     .work-layout {
         width: 100%;
         display: contents;

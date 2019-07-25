@@ -8,8 +8,13 @@
 .manifesto-content-layout ul {
     margin-left: 4rem;
     margin-right: 6rem;
-    line-height: 1.8rem;
+    line-height: 1.6rem;
     list-style-type: decimal;
+}
+
+.manifesto-content-layout ul li {
+    margin-bottom: 0;
+    font-weight: 300;
 }
 
 .stones {
@@ -19,7 +24,9 @@
     height: 100vh;
 }
 
-@media all and (max-width: 1080px) {
+
+
+@media all and (max-width: 72.5rem) {
     .manifesto-content-layout {
         max-width: 80%;
     }

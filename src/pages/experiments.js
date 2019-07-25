@@ -8,12 +8,13 @@ import exp4 from './exp4.svg'
 
 import './Experiments.css'
 
-const ExpPage = () => (
-  <Layout>
+const ExpPage = (props) => {
+  return(
+  <Layout location={props.location}>
     <div className="experiments-layout">
       <div className="experiment-block">
           <Link to="/experiments/flowers">
-          <img src={exp1} alt="Experiment 2" className="experiment-icon" />
+            <img src={exp1} alt="Experiment 1" id="experiment-1" className="experiment-icon" />
           </Link>
       </div>
       <div className="experiment-block">
@@ -33,6 +34,6 @@ const ExpPage = () => (
       </div>
     </div>
     </Layout>
-)
+)}
 
 export default ExpPage

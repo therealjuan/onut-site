@@ -5,20 +5,24 @@ module.exports = {
     keywords: 'onut, computational art, art, human emotions',
     menuLinks: [
       {
-        name: 'manifesto',
-        link: '/manifesto'
-      },
-      {
-        name: 'experiments',
-        link: '/experiments'
+        name: 'work',
+        link: '/work'
       },
       {
         name: 'contact',
         link: 'mailto:hello@onut.art'
       },
       {
-        name: 'work',
-        link: '/work'
+        name: 'experiments',
+        link: '/experiments'
+      },
+      {
+        name: 'exhibitions',
+        link: '/exhibitions'
+      },
+      {
+        name: 'manifesto',
+        link: '/manifesto'
       },
       {
         name: 'home',

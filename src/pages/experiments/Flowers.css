@@ -112,7 +112,7 @@
     float: left;
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 72.5rem) {
 
     .flowers-year {
         font-size: 8rem;

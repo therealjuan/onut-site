@@ -1,30 +1,29 @@
 .menu {
-    margin: 1rem;
-    float: left;
+    margin: 2rem;
+    float: right;
     padding: 0;
+    overflow: hidden;
+    width: 10.2rem;
 }
 
 .menu ul {
     display: block;
-    float: right;
+    float: left;
     margin: 0;
     padding: 0;
+    width:3.4rem;
 }
 
 .menu ul li {
-    float: right;
+    float: left;
     height: 100%;
     letter-spacing: 0.1rem;
     list-style-type: none;
-    margin-right: 1.2rem;
-    margin-bottom: -.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     text-transform: uppercase;
     text-align: center;
-    width: 2.2rem;
-}
-
-.menu .work a {
-    letter-spacing: -0.1rem;
+    width: 2.4rem;
 }
 
 .menu ul li a {
@@ -45,31 +44,32 @@
     background: white;
 }
 
-.menu ul > :first-child {
-    margin-right: 0;
-}
-
-@media all and (max-width: 1080px) {
+@media all and (max-width: 72.5rem) {
 
     .menu {
-        margin-top: 5rem;
-        left: 50%;
+        margin-top: 7rem;
+        left: 0;
         position: relative;
-        margin-left: -6rem;
         width: 12rem;
+        margin-right: 38vw;
+    }
+
+    .menu ul {
+        width: 4rem;
     }
 
     .menu ul li {
-        width: 2.7rem;
+        width: 3rem;
         letter-spacing: 0rem;
         margin-right: 1rem;
+        margin-bottom: 1rem;
     }
 
     .menu ul li a {
         font-size: 1.9rem;
         line-height: 2.4rem;
         padding: .2rem 0;
-        width: 2.7rem;
-        letter-spacing: 0.1rem;
+        width: 3rem;
+        letter-spacing: 0;
     }
 }

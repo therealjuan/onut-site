@@ -58,7 +58,7 @@ export default class FlowersExperiment3 extends React.Component {
 
   render() {
     return(
-      <Layout>
+      <Layout location={this.props.location}>
         <div className="grid-experiment-full-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>
         <div className="flowers-explanation">Weather permitting reflects on Global Climate Change. And how human impact is affecting the world we experiencing.</div>
         <div className="flowers-year">{this.state.year}</div>

@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
+@import url("https://use.typekit.net/ugs8zbt.css");
+
 
 main {
-    font-family: 'Muli', sans-serif;
+    /* font-family: 'Muli', sans-serif; */
+    font-family: museo-sans, sans-serif;
+    /* font-family: futura-pt, sans-serif; */
+    /* font-family: mr-eaves-xl-modern, sans-serif; */
 }
 
 body {
     min-width: 400px;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
 }
 
 p {
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
 }
 
 .no-overflow > html {
@@ -31,18 +36,12 @@ p {
     grid-area: main;
 }
 
-@media all and (max-width: 1080px) {
-    #grid {
-        display: block;
-        grid-template-columns: 100%;
-    }
-}
 
 #sidebar {
     grid-area: sidebar;
     position: fixed;
     right: 0;
-    width: 11rem;
+    width: 14.2rem;
     height: 100vh;
     z-index: 9999;
 }
@@ -51,7 +50,7 @@ p {
 .logoMenu {
     float: left;
     position: fixed;
-    bottom:16vh;
+    bottom:8vh;
     right: 3.6rem;
 }
 
@@ -69,15 +68,15 @@ p {
     display: none;
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 72.5rem) {
+    #grid {
+        display: block;
+        grid-template-columns: 100%;
+    }
 
    .logoMenu {
         right: 1.6rem;
     }
-
-}
-
-@media all and (max-width: 1080px) {
 
     #sidebar {
         position: fixed;

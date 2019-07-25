@@ -50,7 +50,7 @@ export default class FlowersExperiment extends React.Component {
 
     const { data } = this.state
     return(
-      <Layout>
+      <Layout location={this.props.location}>
       <div className="flowers">
         <img style={this.getStyleForImage()} alt="" src={Flower1} />
           <div className="data">

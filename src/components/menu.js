@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Logo from '../components/logo'
+import logoImage from './onut-gold.svg'
 import './Menu.css'
 
 const ListLink = props => (
@@ -28,20 +29,29 @@ class Menu extends React.Component {
     render() {
         const menuActive = this.state.showMenu ? 'is-active' : '';
         const burgerActive = this.state.showMenu ? 'is-active' : '';
+
+        console.log(this.props.menuLinks)
         return(
             <section id="sidebar" className={`${menuActive}`}>
                 <section className='menu'>
-                <ul>
-                    <ListLink to="/manifesto/" onClick={this.handleMobile} className="manifesto">M a n<br/>i<br/>f<br/>e s t o</ListLink>
-                    <ListLink to="/experiments/" onClick={this.handleMobile} className="exp">E x p</ListLink>
-                    <ListLink to="/work/" onClick={this.handleMobile} className="work">W o r k</ListLink>
-                    <li>
-                        <a href="mailto:hello@onut.art" onClick={this.handleMobile}>H i</a>
-                    </li>
-                </ul>
-                <div className={`show-menu ${burgerActive}`} onClick={this.toggleMenu}></div>
+                    <ul>
+                        <ListLink to="/work/" onClick={this.handleMobile} className="work">W o r k</ListLink>
+                        <li>
+                            <a href="mailto:hello@onut.art" onClick={this.handleMobile}>H<br/>i</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <ListLink to="/experiments/" onClick={this.handleMobile} className="exp">E<br/>x<br/>p</ListLink>
+                        <ListLink to="/exhibitions/" onClick={this.handleMobile} className="exh">E<br/>x<br/>h</ListLink>
+                    </ul>
+                    <ul>
+                        <ListLink to="/manifesto/" onClick={this.handleMobile} className="manifesto">M a n<br/>i<br/>f<br/>e<br/>s<br/>t<br/>o</ListLink>
+                    </ul>
+                    <div className={`show-menu ${burgerActive}`} onClick={this.toggleMenu}></div>
                 </section>
-                <Logo className="logoMenu" onClick={this.handleMobile} />
+                { (this.props.location.pathname !== '/' ) ? (
+                <Logo className="logoMenu" logo={logoImage} onClick={this.handleMobile} />
+                ) : null}
             </section>
         )
     }

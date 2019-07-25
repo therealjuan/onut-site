@@ -3,8 +3,9 @@ import Layout from '../components/layout'
 import stones from './stones.svg'
 import './Manifesto.css'
 
-const ManifestoPage = () => (
-  <Layout>
+const ManifestoPage = (props) => {
+  return(
+  <Layout location={props.location}>
       <div className="manifesto-content-layout">
       <h1>ONUT v.1 manifesto</h1>
         <p><strong>Our art is based on human emotions as we are humans.</strong> Let’s express the ordinary. Human emotions are universal and timeless</p>
@@ -18,7 +19,7 @@ const ManifestoPage = () => (
         <p>For all these things:</p>
         <ul>
         <li>We will not follow trends, and only our instincts</li>
-        <li>We will be open and share our thinking with anyone who will be keen to know us</li>
+        <li>We will be open and share our thinking with anyone keen to know us</li>
         <li>We will create and produce as many pieces as possible</li>
         <li>We will consume art and reflect on it on an ongoing basis</li>
         <li>We will often revisit legacy as a theme</li>
@@ -31,5 +32,6 @@ const ManifestoPage = () => (
     <img src={stones} alt="Stones" className="stones" />
   </Layout>
 )
+}
 
 export default ManifestoPage

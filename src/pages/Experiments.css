@@ -9,7 +9,8 @@
     justify-content: center;
 }
 
-.experiment-block a {
+.experiment-block a,
+.experiment-block img {
     display:grid;
 }
 
@@ -38,7 +39,7 @@ ellipse#inside {
 
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 72.5rem) {
     .experiments-layout {
         grid-template-columns: repeat(2, 44%);
         grid-gap: 1rem;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../components/logo'
-
+import logoImage from './onut.svg'
 import './Header.css'
 
 const Header = () => (
@@ -15,7 +15,7 @@ const Header = () => (
             </svg>
         </div>
       </h1>
-      <Logo className="logo-center" />
+      <Logo className="logo-center" logo={logoImage} />
   </header>
 )
 

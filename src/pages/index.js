@@ -5,9 +5,12 @@ import Header from '../components/header'
 
 import './Home.css'
 
-export default props => (
-  <Layout>
+export default props => {
+
+  return (
+  <Layout location={props.location}>
     <Video />
     <Header />
   </Layout>
-)
+  )
+}

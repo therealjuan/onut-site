@@ -4,9 +4,9 @@ import Menu from './menu'
 import './index.css'
 import './layout.css'
 import favicon from '../../src/favicon.png'
-import { StaticQuery } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 
-export default({ children }) => (
+export default({ children, location }) => (
 <StaticQuery
   query={
     graphql`
@@ -42,7 +42,7 @@ export default({ children }) => (
       ]}
     />
     <div id="grid">
-        <Menu menuLinks={data.site.siteMetadata.menuLinks} />
+        <Menu location={location} menuLinks={data.site.siteMetadata.menuLinks} />
         <section id="main-content">
           {children}
         </section>

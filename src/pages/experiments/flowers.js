@@ -60,7 +60,7 @@ export default class FlowersExperiment3 extends React.Component {
     return(
       <Layout location={this.props.location}>
         <div className="grid-experiment-full-image" style={{backgroundImage: 'url(' + Flower1 + ')'}}>
-        <div className="flowers-explanation">Weather permitting reflects on Global Climate Change. And how human impact is affecting the world we experiencing.</div>
+        <div className="flowers-explanation"><p><strong>[Weather permitting]</strong> reflects on Global Climate Change. And how human impact is affecting the world we are experiencing.</p><p>Pictures of flowers taken in our trips around the world are linked to a dataset containing the global average temperature increase from the last 100 years. The hue curve of each image is affected by the data values and translate into a change of colour. The higher the temperature, the warmer the hue values.</p></div>
         <div className="flowers-year">{this.state.year}</div>
         <div className="flowers-highest">
           <span className="highest-temperature-sign">{(this.state.highest >= 0) ? '+' : '-'}</span>

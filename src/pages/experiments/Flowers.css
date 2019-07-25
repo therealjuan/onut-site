@@ -14,12 +14,16 @@
     position: absolute;
     bottom: 0rem;
     left: 0rem;
-    width: 22rem;
-    margin: 1rem;
+    width: 15rem;
+    margin: 2rem;
     font-size: 0.9rem;
     line-height: 1.4rem;
     transition: all 1s linear;
     padding: 1rem;
+}
+
+.flowers-explanation p:last-child {
+    margin-bottom: 0.4rem;
 }
 .flowers a {
     width: 10rem;

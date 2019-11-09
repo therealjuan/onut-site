@@ -1,6 +1,5 @@
 import React from 'react'
 import videoSource from './water.mp4'
-import videoPoster from './water.gif'
 import './Video.css'
 
 const Video = () => (

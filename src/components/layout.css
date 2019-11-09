@@ -10,7 +10,6 @@ main {
 }
 
 body {
-    min-width: 400px;
     font-size: 1rem;
     line-height: 1.4rem;
 }
@@ -34,6 +33,8 @@ p {
 
 #main-content {
     grid-area: main;
+    overflow: hidden;
+    width: 100vw;
 }
 
 
@@ -95,11 +96,6 @@ p {
         background: black;
         margin-bottom: -1rem;
         z-index: 999999;
-    }
-
-    #sidebar.is-active img.onut-logo {
-        filter: invert(100%);
-        transition: all 1s ease;
     }
 
     #sidebar.is-active #Fill-3 {

@@ -53,7 +53,7 @@ class WorkPage extends Component {
                 </aside>
             </div>
             <div className="title">
-            <hr className="top" />
+                <hr className="top" />
                 <h3>{projects[this.state.activeProject].title}</h3>
                 <h4>{projects[this.state.activeProject].date}</h4>
                 <hr className="bottom" />

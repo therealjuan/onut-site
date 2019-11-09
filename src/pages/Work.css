@@ -19,6 +19,7 @@
 .video-summary {
     top: 1rem;
     left: 1rem;
+    padding: 2rem;
     background: black;
 }
 
@@ -55,7 +56,6 @@ h4 {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    width: 100vw;
 }
 
 .column {
@@ -174,7 +174,13 @@ hr.bottom {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    .video-summary {
+        height: auto;
+        padding-top: 7rem;
+    }
+
     .explanation {
         grid-template-columns: 1fr;
+        width: 100vw;
     }
 }

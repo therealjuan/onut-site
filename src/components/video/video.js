@@ -4,7 +4,7 @@ import './Video.css'
 
 const Video = () => (
     <div className="video">
-        <video autoPlay muted playsinline preload loop id="videoBackground">
+        <video preload autoPlay muted playsInline loop id="videoBackground">
             <source src={videoSource} type="video/mp4"></source>
         </video>
     </div>

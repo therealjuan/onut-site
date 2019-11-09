@@ -47,7 +47,7 @@ const ExhPage = (props) => {
             <div className="exhibition-image" style={exhibitionImageStyle}>
             </div>
             <div className="exhibition-content">
-            <h2 className="exhibition-exhibition">Exhibited at <a href={exhibition.exhibitionLink} target="_blank">{exhibition.exhibition}</a></h2>
+            <h2 className="exhibition-exhibition">Exhibited at <a href={exhibition.exhibitionLink} target="_blank" rel="noopener noreferrer">{exhibition.exhibition}</a></h2>
             <h3 className="exhibition-installation">{exhibition.installation}</h3>
                 <h4 className="exhibition-details">{exhibition.date} - {exhibition.venue}. {exhibition.city}</h4>
                 <p className="exhibition-explanation">{exhibition.text}</p>

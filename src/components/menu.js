@@ -30,7 +30,6 @@ class Menu extends React.Component {
         const menuActive = this.state.showMenu ? 'is-active' : '';
         const burgerActive = this.state.showMenu ? 'is-active' : '';
 
-        console.log(this.props.menuLinks)
         return(
             <section id="sidebar" className={`${menuActive}`}>
                 <section className='menu'>

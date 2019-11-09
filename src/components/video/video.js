@@ -1,14 +1,10 @@
 import React from 'react'
-import videoSource from './water.mp4'
-import videoPoster from './water.gif'
+
+import VideoPlayer from './videoPlayer'
 import './Video.css'
 
 const Video = () => (
-    <div className="video">
-        <video autoPlay muted loop id="videoBackground" poster={videoPoster}>
-            <source src={videoSource} type="video/mp4"></source>
-        </video>
-    </div>
+		<VideoPlayer id="videoBackground" className="video" fps="30"/>
 )
 
 export default Video

@@ -80,9 +80,9 @@ p {
 
     #sidebar {
         position: fixed;
-        top: 1rem;
+        top: 0;
         width: 5rem;
-        right: 1rem;
+        right: 0;
         height: 5rem;
         overflow: hidden;
         transition: all 1s ease;
@@ -90,8 +90,8 @@ p {
     }
 
     #sidebar.is-active {
-        width: calc(100% - 2rem);
-        height: calc(100% - 2rem);
+        width: 100%;
+        height: 100%;
         background: black;
         margin-bottom: -1rem;
         z-index: 999999;

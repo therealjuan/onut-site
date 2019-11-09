@@ -43,7 +43,7 @@ class Thumbs extends Component {
         const { photoIndex, isOpen } = this.state
         const contentStyle = {
             overlay: {
-                "zIndex": 9999
+                "zIndex": 999999
             }
         }
         return(

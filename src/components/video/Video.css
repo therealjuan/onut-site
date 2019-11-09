@@ -5,7 +5,12 @@
     min-width: 100%;
     min-height: 100%;
     overflow: hidden;
+}
+
+.video {
     background: url(./water.gif);
+    background-size: cover;
+    background-position: 50%;
 }
 
 @media only screen

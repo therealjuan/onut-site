@@ -54,7 +54,7 @@ class Thumbs extends Component {
                     nextSrc={"/"+this.props.images[(photoIndex + 1) % this.props.images.length]}
                     prevSrc={"/"+this.props.images[(photoIndex + this.props.images.length - 1) % this.props.images.length]}
                     onCloseRequest={() => this.setState({ isOpen: false })}
-                    imagePadding="50"
+                    imagePadding='50'
                     reactModalStyle={contentStyle}
                     onMovePrevRequest={() =>
                     this.setState({

@@ -6,6 +6,14 @@ import './Work.css'
 
 const projects = [{
         id: 1,
+        title: 'Vim',
+        date: 'Nov 2019',
+        video: 'https://player.vimeo.com/video/391834430',
+        leftColumn : 'Vim is an ad-hoc installation that reflects on the normalisation of digital violence in our day to day lives. <br/><br/>Vim was exhibited on Sheroes–Revoluciones, a project by Lon-art designed to draw attention to violence against women providing a platform for 30 women artists, survivors and change-makers.',
+        rightColumn: 'With the purpose of raising awareness about violence against women in the digital space. Violence has been so normalised, it exists around us, without us noticing it. In 2019, in a world where technology is at the core of our existence, violence has not disappeared. Violence has evolved into new forms, some of them more sophisticated. The harm and target remains the same: violence against women.',
+        images:['static/vim/vim-01.jpg', 'static/vim/vim-02.jpg', 'static/vim/vim-03.jpg', 'static/vim/vim-04.jpg', 'static/vim/vim-05.jpg','static/vim/vim-06.jpg']
+    },{
+        id: 2,
         title: 'Pars Colli',
         date: 'May 2019',
         video: 'https://player.vimeo.com/video/349987264',
@@ -13,7 +21,7 @@ const projects = [{
         rightColumn: '<Pars>Shaped as a video dome, Pars colli invites to reflect on how technology impacts human behaviour. The installation topics are Homo[digitalis], [Immediacy], Big[data] and Info[consumption].</p>',
         images:['static/pars-colli/parsColi-01.jpg', 'static/pars-colli/parsColi-02.jpg', 'static/pars-colli/parsColi-03.jpg', 'static/pars-colli/parsColi-04.jpg', 'static/pars-colli/parsColi-05.jpg', 'static/pars-colli/parsColi-06.jpg' ]
     },{
-        id: 2,
+        id: 3,
         title: 'Unsung sheroes',
         date: 'Oct 2018',
         video: 'https://player.vimeo.com/video/260203214',
@@ -21,7 +29,7 @@ const projects = [{
         rightColumn: 'The artwork wanted to enhance the role of common women at the base of the social pyramid.',
         images:['static/thumb1.jpg', 'static/00367.jpg', 'static/00389-1344.jpg', 'static/00406-1344.jpg', 'static/00428-1344.jpg', 'static/00472.jpg', 'static/00477-1344.jpg', 'static/00487-1344.jpg']
     },{
-        id: 3,
+        id: 4,
         title: 'Me-more-y',
         date: 'Oct 2018',
         video: 'https://player.vimeo.com/video/235417350',

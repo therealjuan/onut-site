@@ -4,6 +4,15 @@ import Layout from '../components/layout'
 import './Exhibitions.css'
 
 const exhibitions = [{
+    exhibition: 'Sheroes Revoluciones',
+    exhibitionLink: 'http://uglyduck.org.uk/portfolio_page/revoluciones/',
+    installation: 'Vim',
+    venue: 'Ugly Duck',
+    city: 'London',
+    date: '22-24 November 2019',
+    text : 'Part of Sheroes Revoluciones, Vim is an ad-hoc installation that reflects on the normalisation of digital violence in our day to day lives.',
+    image: 'static/vim/vim-02.jpg'
+},{
     exhibition: 'Anamorphic Waves',
     exhibitionLink: 'http://uglyduck.org.uk/portfolio_page/anamorphic/',
     installation: 'Pars Colli',

@@ -64,16 +64,10 @@ const ParsColliPage = ({ data, location }) => {
         <Thumbs images={projects[1].images} />
         { projects.length > 1 ? (
             <div className="work-navigation">
-                {projects.map( (project, index) => (
-                    <div key={project.id}
-                        onClick={() => window.open(project.slug,"_self")}
-                        className= {
-                        "work-navigation-item " + (
-                            projects[1].id === project.id ?
-                                " active" : 1
-                        ) }>
-                    </div>
-                ))}
+            <a href="/work/vim"><div className="work-navigation-item"></div></a>
+            <a href="/work/pars-colli"><div className="work-navigation-item active"></div></a>
+            <a href="/work/unsung-sheroes"><div className="work-navigation-item"></div></a>
+            <a href="/work/me-more-y"><div className="work-navigation-item"></div></a>
             </div>
         ) : null }
     </Layout>

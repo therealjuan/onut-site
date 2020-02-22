@@ -67,6 +67,7 @@ p {
     top: 0;
     margin: 1rem;
     display: none;
+    cursor: pointer;
 }
 
 @media all and (max-width: 72.5rem) {

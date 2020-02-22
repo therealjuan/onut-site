@@ -170,15 +170,7 @@ hr.bottom {
 
 }
 
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-    .video-summary {
-        height: auto;
-        padding-top: 7rem;
-    }
+@media all and (max-width: 72.5rem) {
 
     .explanation {
         grid-template-columns: 1fr;

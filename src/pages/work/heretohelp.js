@@ -4,7 +4,7 @@ import Thumbs from '../../components/thumbs'
 
 import '../Work.css'
 
-const images = ['static/heretohelp/heretohelp-1.jpg','static/heretohelp/heretohelp-2.jpg','static/heretohelp/heretohelp-3.gif','static/heretohelp/heretohelp-4.jpg','static/heretohelp/heretohelp-5.gif'];
+const images = ['static/heretohelp/heretohelp-2.jpg','static/heretohelp/heretohelp-3.gif','static/heretohelp/heretohelp-4.jpg','static/heretohelp/heretohelp-5.gif','static/heretohelp/heretohelp-1.jpg'];
 
 const heretohelpPage = ({ data, location }) => {
 

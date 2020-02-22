@@ -85,21 +85,21 @@ hr.bottom {
     z-index: 9999;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 0.5rem;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-row-gap: 0.5rem;
+    grid-row-gap: 0.7rem;
     width: 9.4rem;
     cursor: pointer;
 }
 
 .work-navigation-item {
     cursor: pointer;
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     background: white;
     border-width: 2px;
     border-style: solid;
     border-color: black;
+    margin: auto;
 }
 
 .work-navigation-item.active {

@@ -56,6 +56,7 @@ h4 {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
+    min-height: 14rem;
 }
 
 .column {
@@ -173,7 +174,9 @@ hr.bottom {
 @media all and (max-width: 72.5rem) {
 
     .explanation {
+        display: block;
         grid-template-columns: 1fr;
+        grid-gap: 0;
         width: 100vw;
     }
 }

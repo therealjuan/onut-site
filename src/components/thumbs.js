@@ -23,7 +23,7 @@ class Thumbs extends Component {
         for( let i=0; i<numImages; i++) {
             thumbs.push(
                 <div key={i} className="thumb">
-                    <img class="lazyload" src={withPrefix(this.props.images[i])} alt="onut" onClick={()=>this.imageClick(i)} />
+                    <img className="lazyload" src={withPrefix(this.props.images[i])} alt="onut" onClick={()=>this.imageClick(i)} />
                 </div>
             )
         }

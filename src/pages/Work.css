@@ -1,11 +1,10 @@
 .work-layout {
-    display: grid;
-    grid-template-rows: 1fr 12rem;
-    grid-template-columns: 1fr;
     width: calc(100% - 34rem);
-    height: calc(100% - 2rem);
-    top: 1rem;
-    left: 1rem;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+    flex: 1;
     position: fixed;
 }
 
@@ -21,6 +20,7 @@
     left: 1rem;
     padding: 2rem;
     background: black;
+    flex-grow: 1;
 }
 
 .title {
@@ -65,7 +65,7 @@ h4 {
 hr {
     position:fixed;
     width: 20rem;
-    height: 2rem;
+    height: 2vh;
     right: 12rem;
     background: white;
     border: none;
@@ -75,7 +75,7 @@ hr.top {
     top:-0.8em;
 }
 hr.bottom {
-    bottom: -1.9em;
+    top: 98vh;
 }
 
 .work-navigation {

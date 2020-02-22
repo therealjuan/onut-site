@@ -62,14 +62,13 @@ const ParsColliPage = ({ data, location }) => {
             <hr className="bottom" />
         </div>
         <Thumbs images={projects[1].images} />
-        { projects.length > 1 ? (
             <div className="work-navigation">
             <a href="/work/vim"><div className="work-navigation-item"></div></a>
             <a href="/work/pars-colli"><div className="work-navigation-item active"></div></a>
             <a href="/work/unsung-sheroes"><div className="work-navigation-item"></div></a>
             <a href="/work/me-more-y"><div className="work-navigation-item"></div></a>
+            <a href="/work/heretohelp"><div className="work-navigation-item"></div></a>
             </div>
-        ) : null }
     </Layout>
     )
 }

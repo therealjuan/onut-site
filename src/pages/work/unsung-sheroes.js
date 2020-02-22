@@ -67,8 +67,8 @@ const ParsColliPage = ({ data, location }) => {
             <a href="/work/pars-colli"><div className="work-navigation-item"></div></a>
             <a href="/work/unsung-sheroes"><div className="work-navigation-item active"></div></a>
             <a href="/work/me-more-y"><div className="work-navigation-item"></div></a>
+            <a href="/work/heretohelp"><div className="work-navigation-item"></div></a>
             </div>
-        ) : null }
     </Layout>
     )
 }

@@ -83,17 +83,19 @@ hr.bottom {
     top: 50%;
     right: 2rem;
     z-index: 9999;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0.5rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 0.5rem;
     width: 9.4rem;
+    cursor: pointer;
 }
 
 .work-navigation-item {
     cursor: pointer;
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
     background: white;
     border-width: 2px;
     border-style: solid;

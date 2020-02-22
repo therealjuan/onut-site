@@ -1,4 +1,5 @@
 ---
+id: 1
 title: '[Virtuality Mortality]'
 exhibitionLink: 'https://virtualitymortality.wordpress.com/'
 installation: 'Me-more-y'

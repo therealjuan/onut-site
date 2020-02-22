@@ -45,7 +45,7 @@ export const exhibitionQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___id], order: DESC }) {
       edges {
         node {
           frontmatter {

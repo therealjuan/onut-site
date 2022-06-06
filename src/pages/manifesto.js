@@ -24,7 +24,7 @@ const ManifestoPage = (props) => {
         <li>We will consume art and reflect on it on an ongoing basis</li>
         <li>We will often revisit legacy as a theme</li>
         <li>We will advocate for equal opportunities. Giving access to art and education no matter the background</li>
-        <li>We will experiment with every piece produced a new material or technology. For us technology is an enabler, a tool to achieve what we stand for</li>
+        <li>We will experiment with every piece produced a new material or technology. For us technology is an enabler, code is a material as it could be clay or oil paint, for us a way to achieve what we stand for</li>
         <li>We will use our art to enable a better world</li>
         </ul>
         <p>For all these, today we create ONUT v.1 manifesto (London 11/08/2018)</p>

@@ -34,7 +34,7 @@ class Menu extends React.Component {
             <section id="sidebar" className={`${menuActive}`}>
                 <section className='menu'>
                     <ul>
-                        <ListLink to="/work/vim" onClick={this.handleMobile} className="work">W o r k</ListLink>
+                        <ListLink to="/work/foodlovers" onClick={this.handleMobile} className="work">W o r k</ListLink>
                         <li>
                             <a href="mailto:hello@onut.art" onClick={this.handleMobile}>H<br/>i</a>
                         </li>

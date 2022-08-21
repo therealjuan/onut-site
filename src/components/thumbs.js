@@ -20,6 +20,16 @@ class Thumbs extends Component {
         const numImages = this.props.images.length
         let thumbs = []
 
+        const keyForCube = numImages + 1;
+        if (this.props.cube) {
+            alert(1);
+            thumbs.push(
+            <div key={keyForCube} className="thumb">
+                <video controls width="100%" src={this.props.cube}></video>
+            </div>
+            )
+        }
+        
         for( let i=0; i<numImages; i++) {
             thumbs.push(
                 <div key={i} className="thumb">

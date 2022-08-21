@@ -10,7 +10,7 @@ const heretohelpPage = ({ data, location }) => {
 
     return(
         <Layout location={location}>
-        <div className="work-layout" id="5">
+        <div className="work-layout" id="6">
             <div className="video-summary">
                 <iframe title="video" src="https://player.vimeo.com/video/218911459" width="100%" height="100%" frameBorder="0"></iframe>
             </div>
@@ -31,6 +31,7 @@ const heretohelpPage = ({ data, location }) => {
         </div>
         <Thumbs images={images} />
         <div className="work-navigation">
+        <a href="/work/foodlovers"><div className="work-navigation-item"></div></a>
         <a href="/work/vim"><div className="work-navigation-item"></div></a>
         <a href="/work/pars-colli"><div className="work-navigation-item"></div></a>
         <a href="/work/unsung-sheroes"><div className="work-navigation-item"></div></a>

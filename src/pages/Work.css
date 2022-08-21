@@ -8,6 +8,9 @@
     position: fixed;
 }
 
+.explanation a {
+    color: #c29714;
+}
 .project {
     width: 26%;
     background: red;

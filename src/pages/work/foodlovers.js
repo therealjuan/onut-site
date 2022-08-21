@@ -12,7 +12,7 @@ const projects = [{
     video: 'https://player.vimeo.com/video/735147425',
     leftColumn : 'We believe in a Global world. Where everyone celebrates differences. Live in peace, appreciate & respect each other. This is why we created 595 images showing 85 recipes from 21 countries. A <a href="https://opensea.io/collection/foodlovers-by-onut" target="_blank">limited NFT collection</a> of computationally generated Art inspired by Art Deco & our personal circumstances.',
     rightColumn: 'Foodlovers project began the same day the Russo-Ukrainian war started. It is a call to action from ONUT, the collaborative effort of 2 Spanish multimedia artists based in Amsterdam. 100% earnings will be donated to the <a href="https://aid.prytulafoundation.org/en/" target="_blank">SERHIY PRYTULA Charity Foundation</a> providing humanitarian aid to Ukrainians affected by the war..<br/><br/>Learn more in <a href="https://foodlovers.onut.art" target="_blank">foodlovers.onut.art</a>.',
-    images:['static/foodlovers/foodlovers-0.jpg','static/foodlovers-1.png','static/foodlovers/foodlovers-3.png', 'static/foodlovers/foodlovers-2.png']
+    images:['foodlovers/foodlovers-0.jpg','foodlovers-1.png','foodlovers/foodlovers-3.png', 'foodlovers/foodlovers-2.png']
 }]
 
 const FoodLoversPage = ({ data, location }) => {

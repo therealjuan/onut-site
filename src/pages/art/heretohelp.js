@@ -31,12 +31,12 @@ const heretohelpPage = ({ data, location }) => {
         </div>
         <Thumbs images={images} />
         <div className="work-navigation">
-        <a href="/work/foodlovers"><div className="work-navigation-item"></div></a>
-        <a href="/work/vim"><div className="work-navigation-item"></div></a>
-        <a href="/work/pars-colli"><div className="work-navigation-item"></div></a>
-        <a href="/work/unsung-sheroes"><div className="work-navigation-item"></div></a>
-        <a href="/work/me-more-y"><div className="work-navigation-item"></div></a>
-        <a href="/work/heretohelp"><div className="work-navigation-item active"></div></a>
+        <a href="/art/foodlovers"><div className="work-navigation-item"></div></a>
+        <a href="/art/vim"><div className="work-navigation-item"></div></a>
+        <a href="/art/pars-colli"><div className="work-navigation-item"></div></a>
+        <a href="/art/unsung-sheroes"><div className="work-navigation-item"></div></a>
+        <a href="/art/me-more-y"><div className="work-navigation-item"></div></a>
+        <a href="/art/heretohelp"><div className="work-navigation-item active"></div></a>
         </div>
     </Layout>
     )

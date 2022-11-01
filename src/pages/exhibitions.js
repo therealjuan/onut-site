@@ -9,7 +9,11 @@ const ExhPage = ({ data, location }) => {
 
     return(
     <Layout location={location}>
+      
     <div className="exhibitions-layout">
+      <div className="exhibition">
+        <h2 className="inner-page-heading">Exhibitions</h2>
+      </div>
     {posts.map(({ node }) => {
 
         const exhibitionImageStyle = {

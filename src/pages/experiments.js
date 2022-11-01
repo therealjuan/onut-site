@@ -12,6 +12,7 @@ const ExpPage = (props) => {
   return(
   <Layout location={props.location}>
     <div className="experiments-layout">
+      <h2 className="inner-page-heading">Experiments</h2>
       <div className="experiment-block">
           <Link to="/experiments/flowers">
             <img src={exp1} alt="Experiment 1" id="experiment-1" className="experiment-icon" />

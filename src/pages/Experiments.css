@@ -4,7 +4,7 @@
     display: grid;
     margin: 7rem auto;
     grid-gap: 2rem;
-    max-width: 80rem;
+    max-width: 70vw;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
 }

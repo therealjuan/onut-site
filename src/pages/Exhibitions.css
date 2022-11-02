@@ -11,7 +11,7 @@
     display: grid;
     margin: 7rem auto;
     row-gap: 4rem;
-    max-width: 80rem;
+    max-width: 70vw;
     grid-template-columns: 1fr;
     justify-content: center;
 }
@@ -22,7 +22,7 @@
     padding: 0;
     grid-row-gap: 5rem;
     grid-column-gap: 2rem;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 35% 65%;
 }
 
 .exhibition-image {

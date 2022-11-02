@@ -22,7 +22,7 @@
     padding: 0;
     grid-row-gap: 5rem;
     grid-column-gap: 2rem;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 35% 60%;
 }
 
 .exhibition-image {

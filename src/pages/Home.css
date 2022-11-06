@@ -15,3 +15,27 @@
 .manifesto {
     background: red;
 }
+
+.details {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: .5rem;
+}
+
+.details h4 { 
+    font-size: 1.4rem;
+    line-height: 1.1;
+    font-weight: 400;
+    margin: 0;
+}
+
+.details a {
+    color: black;
+}
+
+.details a:hover {
+    text-decoration: none;
+}

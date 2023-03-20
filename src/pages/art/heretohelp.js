@@ -11,6 +11,7 @@ const heretohelpPage = ({ data, location }) => {
     return(
         <Layout location={location}>
         <div className="work-layout" id="6">
+            <div className="topDivider"></div>
             <div className="video-summary">
                 <iframe title="video" src="https://player.vimeo.com/video/218911459" width="100%" height="100%" frameBorder="0"></iframe>
             </div>

@@ -20,6 +20,7 @@ const FoodLoversPage = ({ data, location }) => {
     return(
         <Layout location={location}>
         <div className="work-layout" id={projects[0].id}>
+            <div className="topDivider"></div>
             <div className="video-summary">
                 <iframe title="video" src={projects[0].video} width="100%" height="100%" frameBorder="0"></iframe>
             </div>

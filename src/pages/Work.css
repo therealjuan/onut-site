@@ -132,6 +132,11 @@ hr.bottom {
         display: contents;
     }
 
+    .topDivider {
+        height: 8rem;
+        background: black;
+    }
+
     .video-summary {
         padding-top: 2rem;
         width: 100vw;
@@ -171,10 +176,6 @@ hr.bottom {
         float: left;
         padding-top: 0;
     }
-
-}
-
-@media all and (max-width: 72.5rem) {
 
     .explanation {
         display: block;
